@@ -56,7 +56,6 @@ This react_native application was built with Crowdbotics www.crowdbotics.com
 
 This section will show any installed modules you add from the Storyboard Modules section.
 - [camera]()
-- [screen-add-card-details](screens/add-card-details)
 - [screen-appointment-calendar](screens/appointment-calendar)
 - [react-native-articles](modules/articles)
 
