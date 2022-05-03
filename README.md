@@ -58,6 +58,7 @@ This section will show any installed modules you add from the Storyboard Modules
 - [camera]()
 - [screen-add-card-details](screens/add-card-details)
 - [screen-appointment-calendar](screens/appointment-calendar)
+- [react-native-articles](modules/articles)
 
 # Getting started: Frontend
 

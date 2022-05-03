@@ -990,6 +990,9 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
+"@modules/articles@file:./modules/articles/":
+  version "1.0.0"
+
 "@modules/camera@file:./modules/camera":
   version "1.0.1"
   dependencies:
@@ -1211,7 +1214,7 @@
 "@screens/add-card-details@file:./screens/add-card-details":
   version "1.0.0"
 
-"@screens/appointment-calendar@file:./screens/appointment-calendar/":
+"@screens/appointment-calendar@file:./screens/appointment-calendar":
   version "1.0.0"
 
 "@sideway/address@^4.1.3":
