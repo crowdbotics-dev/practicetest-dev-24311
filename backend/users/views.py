@@ -2,7 +2,13 @@ from .models import User
 from django.contrib.auth import get_user_model
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.urls import reverse
-from django.views.generic import ListView, UpdateView, DetailView, RedirectView, CreateView
+from django.views.generic import (
+    ListView,
+    UpdateView,
+    DetailView,
+    RedirectView,
+    CreateView,
+)
 
 User = get_user_model()
 

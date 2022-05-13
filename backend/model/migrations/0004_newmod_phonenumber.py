@@ -6,13 +6,13 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('model', '0003_newmod_address'),
+        ("model", "0003_newmod_address"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='newmod',
-            name='phonenumber',
+            model_name="newmod",
+            name="phonenumber",
             field=models.BigIntegerField(blank=True, null=True),
         ),
     ]
