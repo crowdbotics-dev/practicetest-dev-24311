@@ -13,10 +13,6 @@ class Newmod(models.Model):
         null=True,
         blank=True,
     )
-    phonenumber = models.BigIntegerField(
-        null=True,
-        blank=True,
-    )
 
 
 # Create your models here.

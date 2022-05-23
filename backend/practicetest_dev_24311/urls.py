@@ -37,6 +37,7 @@ urlpatterns = [
     path("api/v1/", include("model.api.v1.urls")),
     path("model/", include("model.urls")),
     path("home/", include("home.urls")),
+    path("practicetest/", include("practicetest.urls")),
 ]
 
 admin.site.site_header = "practicetest"
