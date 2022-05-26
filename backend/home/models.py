@@ -12,3 +12,8 @@ class CustomText(models.Model):
     title = models.CharField(
         max_length=150,
     )
+
+
+class Rightttt(models.Model):
+    "Generated Model"
+    name = models.TextField()
