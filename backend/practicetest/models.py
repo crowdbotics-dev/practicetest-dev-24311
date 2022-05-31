@@ -13,6 +13,10 @@ class Userdetails(models.Model):
         null=True,
         blank=True,
     )
+    team = models.TextField(
+        null=True,
+        blank=True,
+    )
 
 
 # Create your models here.
