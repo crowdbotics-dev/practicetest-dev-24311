@@ -12,3 +12,12 @@ class CustomText(models.Model):
     title = models.CharField(
         max_length=150,
     )
+
+
+class Devstring(models.Model):
+    "Generated Model"
+    name = models.TextField()
+    address = models.TextField(
+        null=True,
+        blank=True,
+    )
