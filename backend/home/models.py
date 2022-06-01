@@ -12,6 +12,10 @@ class CustomText(models.Model):
     title = models.CharField(
         max_length=150,
     )
+    rollnumber = models.IntegerField(
+        null=True,
+        blank=True,
+    )
 
 
 class Devstring(models.Model):
