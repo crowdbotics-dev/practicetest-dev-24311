@@ -1,4 +1,4 @@
-from .models import HomePage, CustomText
+from .models import Devstring, CustomText, HomePage
 from django.views.generic import CreateView, UpdateView, DetailView, ListView
 from django.shortcuts import render
 
